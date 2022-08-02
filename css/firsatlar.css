@@ -10,7 +10,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 html
 {
@@ -19,7 +18,6 @@ html
 a
 {
     text-decoration: none;
-    color: #fff;
     
 }
 #navbar
@@ -52,5 +50,26 @@ a
     height: 100rem;
     list-style-type: none; 
 }
-
+.buton12345{
+    background: #640094;
+    border-bottom: 15px solid #640094;
+    border-left: 30px solid #640094;
+    border-right: 30px solid #640094;
+    border-top: 15px solid #640094;
+    color: #ffffff;
+    justify-content: center;
+    border-radius: 50px;
+}
+.buton12345:hover{
+    color: #ffffff;
+}
+.indirim{
+    background: rgb(75, 75, 75);
+    padding: 0.25rem;
+    color: white;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}   
 
