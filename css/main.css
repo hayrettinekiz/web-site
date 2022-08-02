@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+body
+{
+    background-image: url("/web-site/resim/matteo-vella-R0IocwcZQk8-unsplash.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
 html{
     font-family: "Open Sans", sans-serif;
 }
@@ -31,3 +39,45 @@ a{
     max-width: 1100px;
     margin: 0 auto;
 }
+ol, ul
+{
+    padding-left: 5px;
+}
+.nav
+{
+    position: fixed;
+    padding-left:0px;
+    width: 55px;
+    height: 280px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+h4
+{
+    font-size: 13px;
+}
+.nav:hover
+{
+    width: 80px;
+    justify-content: center;
+    transition:200ms all;
+    
+}
+.nav
+{
+    /* glass */
+   
+    background: linear-gradient(135deg, rgba(255,255,255,0.1) rgba(255,255,255,0) );
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius:0px 27px 27px 0px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);    
+}
+.icons
+{
+    position: relative;
+    margin-top: 23px;
+    width: 40px;
+}
+
