@@ -34,6 +34,12 @@ a{
 {
     padding: 0.5rem;
 }
+#navbar ul li a:hover
+{
+    color: #fff;
+    background-color:#3c035757 ;
+    border-radius: 10px;
+}
 .container
 {
     max-width: 1100px;
@@ -60,7 +66,7 @@ h4
 {
     width: 80px;
     justify-content: center;
-    transition:400ms all;
+    transition:500ms all;
     
 }
 .nav
@@ -80,7 +86,90 @@ h4
     margin-top: 23px;
     width: 40px;
 }
-.icons:hover .tooltiptext {
-    visibility: visible;
-  }
+.containeralt
+{
+    width:200px;
+    height: 60px;
+    margin-left: 150px;
+    margin-top:70px ;
+    display: inline-block;
+    text-align: center;
 
+}
+.containeralta
+{
+    width:200px;
+    height:60px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display:inline-block;
+    text-align: center;
+
+}
+.containeralt:hover
+{
+    width: 400px;
+    height: 500px;
+    margin-left: 70px;
+    transition: 1000ms all;
+    text-align: center;
+}
+.containeralta:hover
+{
+    width: 400px;
+    height: 500px;
+    margin-left: 0px;
+    transition:1000ms all;
+
+}
+.glass
+{
+    
+    background: linear-gradient(135deg, rgba(255,255,255,0.1) rgba(255,255,255,0) );
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius:30px;
+    border: 2px solid rgba(255, 255, 255, 0.481);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);   
+}
+h1
+{
+    color: rgb(255, 255, 255);
+}
+.butonadres
+{
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    
+    margin-top: 70px;
+    right: 70px;
+    
+}
+.buttonyazı
+{
+
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: 'Exo 2', sans-serif;
+
+}
+.buton{
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+}
+.buton
+{
+    color: #fff;
+    background-color: black;
+    border-radius: 18px;
+    box-shadow:2px solid #fff;
+}
+.buton:hover
+{
+    color: black;
+    background-color:#fff ;
+    transition:800ms all;
+    
+}
