@@ -49,10 +49,8 @@ a
     right: 0;
     background-color: #efeef6;
     width: 300px;
-    height: 500px;
-    list-style-type: none;
-    border: 1px solid #efeef6;
-    overflow: auto;   
+    height: 100rem;
+    list-style-type: none; 
 }
 
 
