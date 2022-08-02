@@ -1,20 +1,29 @@
-/* card-img-top{
-    height: 100rem;
-} */
+ card-img-top
+ {
+    width: 340px;
+} 
+/* card-img-top-tel
+{
+    width: 330px;
+    height: 370px;
+}  */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+html
+{
     font-family: "Open Sams", sans-serif;
 }
-a{
+a
+{
     text-decoration: none;
     color: #fff;
     
 }
-#navbar{
+#navbar
+{
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -34,3 +43,16 @@ a{
     max-width: 1100px;
     margin: 0 auto;
 }
+.filter
+{
+    position: absolute;
+    right: 0;
+    background-color: #efeef6;
+    width: 300px;
+    height: 500px;
+    list-style-type: none;
+    border: 1px solid #efeef6;
+    overflow: auto;   
+}
+
+
