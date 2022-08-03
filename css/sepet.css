@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Open Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+#navbar ul
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a
+{
+    padding: 0.5rem;
+}
+#navbar ul li a:hover
+{
+    color: #fff;
+    background-color:#3c035757 ;
+    border-radius: 10px;
+}
+ol, ul
+{
+    padding-left: 5px;
+}
+.nav
+{
+    position: fixed;
+    padding-left:0px;
+    width: 55px;
+    height: 280px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+h4
+{
+    font-size: 13px;
+}
+.nav:hover
+{
+    width: 80px;
+    justify-content: center;
+    transition:500ms all;
+    
+}
+.nav
+{
+    /* glass */
+   background-color: black;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1) rgba(255,255,255,0) );
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius:0px 27px 27px 0px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);    
+}
+.icons
+{
+    position: relative;
+    margin-top: 23px;
+    width: 40px;
+}
+.card
+{
+    
+    height: 145px;
+    margin-left: 7rem;
+    padding: 3px;
+    outline: auto rgba(0, 0, 0, 0.52) ;
+}
+.img
+{
+    width: 140px;
+    height: 140px;
+}
+.fiyat
+{
+    background-color: rgba(0, 0, 0, 0);
+    display: inline-block;
+    width: 350px;
+    height: 450px;
+    margin-top: 50px;
+    margin-right: 160px;
+    float: right;
+}
+.indirim{
+    background: rgb(0, 0, 0);
+    padding: 0.70rem;
+    color: white;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.resim{
+    width: 40px;
+}
+.cıkarma
+{
+    background: rgba(255, 255, 255, 0);
+    padding: 0.10rem;
+    color: white;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}   
+.fiyattoplam
+{
+    text-align: right;
+    margin-right: 20px;
+}
+.fiyatmarka
+{
+    margin-left: 15px;
+    font-size: 1.3rem;
+}
+.butononay
+{
+    font-size: 17px;
+    background-color: rgb(255, 51, 0);
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 6.5rem;
+}
+.butononay:hover
+{
+    font-size: 17px;
+    background-color: rgb(255, 51, 0);
+    opacity: 0.9;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    
+}
+
+
+
