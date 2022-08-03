@@ -13,7 +13,8 @@
 }
 html
 {
-    font-family: "Open Sams", sans-serif;
+    /* font-family: "Open Sams", sans-serif; */
+    /* max-width: 1600px; */
 }
 a
 {
@@ -47,7 +48,7 @@ a
     right: 0;
     background-color: #efeef6;
     width: 300px;
-    height: 100rem;
+    height: 1370px;
     list-style-type: none; 
 }
 .buton12345{
@@ -72,4 +73,9 @@ a
     top: 0;
     left: 0;
 }   
+@media(max-width:1700px){
+.filter{
+    width: 200px;
+}
+}
 
