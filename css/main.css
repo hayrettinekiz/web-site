@@ -121,7 +121,7 @@ h4
     height: 480px;
     margin-left: 0px;
     transition:2000ms all;
-
+    text-align: center;
 }
 .glass
 {
@@ -174,4 +174,40 @@ h1
     transition:2000ms all;
     
 }
+
+.user
+{
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+
+}
+.user:focus{
+    outline: 3px red;
+}
+.butonlogın
+{
+    width: 200px;
+    height: 40px;    
+    border-radius: 20px;
+    background-color:rgb(3,104,186);
+    color: #fff;
+}
+.ayrac
+{
+    background-color: #fff;
+}
+::placeholder
+{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
 
