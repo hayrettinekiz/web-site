@@ -13,7 +13,7 @@
 }
 html
 {
-    /* font-family: "Open Sams", sans-serif; */
+    font-family: "Open Sams", sans-serif; 
     /* max-width: 1600px; */
 }
 a
@@ -135,9 +135,8 @@ h4
     .container{
         margin-left: 70px;
     }
-.card-img-top
-    {
-       width: 150px;
-   } 
+    .row{
+        width: 150px;
+    }
 }
 
