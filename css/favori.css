@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    /* background-image: url("/web-site/resim/matteo-vella-R0IocwcZQk8-unsplash.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* height: 100%; */
+    /* background-position: center; */
+    /* background-size: cover; */
+}
+html{
+    font-family: "Open Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+#navbar ul
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a
+{
+    padding: 0.5rem;
+}
+#navbar ul li a:hover
+{
+    color: #fff;
+    background-color:#3c035757 ;
+    border-radius: 10px;
+}
+.container
+{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+ol, ul
+{
+    padding-left: 5px;
+}
+.nav
+{
+    position: fixed;
+    padding-left:0px;
+    width: 55px;
+    height: 280px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+h4
+{
+    font-size: 13px;
+}
+.nav:hover
+{
+    width: 80px;
+    justify-content: center;
+    transition:500ms all;
+    
+}
+/* .nav
+{
+    
+   
+    background: linear-gradient(135deg, rgba(255,255,255,0.1) rgba(255,255,255,0) );
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius:0px 27px 27px 0px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);    
+} */
+.icons
+{
+    position: relative;
+    margin-top: 23px;
+    width: 40px;
+}
+.containeralt
+{
+    width:200px;
+    height: 60px;
+    margin-left: 150px;
+    margin-top:70px ;
+    display: inline-block;
+    text-align: center;
+
+}
+.containeralta
+{
+    width:200px;
+    height:60px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display:inline-block;
+    text-align: center;
+
+}
+
+.containeralt:hover
+{
+    width: 400px;
+    height: 480px;
+    margin-left: 70px;
+    transition: 2000ms all;
+    text-align: center;
+}
+.containeralta:hover
+{
+    width: 400px;
+    height: 480px;
+    margin-left: 0px;
+    transition:2000ms all;
+
+}
+.glass
+{
+    
+    background: linear-gradient(135deg, rgba(255,255,255,0.1) rgba(255,255,255,0) );
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius:30px;
+    border: 2px solid rgba(255, 255, 255, 0.481);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);   
+}
+h1
+{
+    color: rgb(255, 255, 255);
+}
+.butonadres
+{
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    
+    margin-top: 70px;
+    right: 250px;
+    
+}
+.buttonyazı
+{
+
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: 'Exo 2', sans-serif;
+
+}
+.buton{
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+}
+.buton
+{
+    color: #fff;
+    background-color: black;
+    border-radius: 18px;
+    box-shadow:2px solid #fff;
+}
+.buton:hover
+{
+    color: black;
+    background-color:#fff ;
+    transition:2000ms all;
+    
+}
+
+.nav
+{
+    /* glass */
+   background-color: black;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1) rgba(255,255,255,0) );
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius:0px 27px 27px 0px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);    
+}
