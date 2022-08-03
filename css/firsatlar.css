@@ -25,6 +25,7 @@ a
     text-decoration: none;
     
 }
+
 #navbar
 {
     color: #fff;
@@ -40,6 +41,12 @@ a
 #navbar ul li a
 {
     padding: 0.5rem;
+}
+#navbar ul li a:hover
+{
+    color: #fff;
+    background-color:#3c035757 ;
+    border-radius: 10px;
 }
 ol, ul
 {
@@ -83,6 +90,9 @@ h4
     margin-top: 23px;
     width: 40px;
 }
+.seçenek{
+    color: #fff;
+}
 .container
 {
     max-width: 1100px;
@@ -124,7 +134,7 @@ h4
 }   
 @media(max-width:1700px){
 .filter{
-    width: 200px;
+    width: 700px;
     margin-right: 50px;
 }
 .container{
@@ -133,8 +143,8 @@ h4
 }
 @media(max-width:1400px){
     .filter{
-        width: 150px;
-        margin-right: 30px;
+        width: 200px;
+        margin-right: 130px;
     }
     .container{
         margin-left: 70px;
@@ -147,5 +157,6 @@ h4
 .card-img-top-tel{
     max-height: 180px;
 }
+
 }
 
