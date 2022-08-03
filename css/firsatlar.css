@@ -37,10 +37,53 @@ a
 {
     padding: 0.5rem;
 }
+ol, ul
+{
+    padding-left: 5px;
+}
+.nav
+{
+    margin-left: 0px;
+    position: fixed;
+    padding-left:0px;
+    width: 55px;
+    height: 280px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+h4
+{
+    font-size: 24px;
+}
+.nav:hover
+{
+    width: 80px;
+    justify-content: center;
+    transition:500ms all;
+    
+}
+.nav
+{
+    /* glass */
+   background-color: black;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1) rgba(255,255,255,0) );
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius:0px 27px 27px 0px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);    
+}
+.icons
+{
+    position: relative;
+    margin-top: 23px;
+    width: 40px;
+}
 .container
 {
     max-width: 1100px;
     margin: 0 auto;
+    margin-left: 200px;
 }
 .filter
 {
@@ -50,6 +93,8 @@ a
     width: 300px;
     height: 1370px;
     list-style-type: none; 
+    padding-left: 50px;
+    margin-right: 100px;
 }
 .buton12345{
     background: #640094;
@@ -76,6 +121,10 @@ a
 @media(max-width:1700px){
 .filter{
     width: 200px;
+    margin-right: 50px;
+}
+.container{
+    margin-left: 100px;
 }
 }
 
