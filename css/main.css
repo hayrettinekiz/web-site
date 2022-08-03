@@ -106,20 +106,21 @@ h4
     text-align: center;
 
 }
+
 .containeralt:hover
 {
     width: 400px;
-    height: 500px;
+    height: 480px;
     margin-left: 70px;
-    transition: 1000ms all;
+    transition: 2000ms all;
     text-align: center;
 }
 .containeralta:hover
 {
     width: 400px;
-    height: 500px;
+    height: 480px;
     margin-left: 0px;
-    transition:1000ms all;
+    transition:2000ms all;
 
 }
 .glass
@@ -170,6 +171,7 @@ h1
 {
     color: black;
     background-color:#fff ;
-    transition:800ms all;
+    transition:2000ms all;
     
 }
+
